@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#stage {
+  margin-left: 0px;
+  width: 360px;
+  padding: 0 0 40px;
+}
+
+
+
+.perspective {
+  -webkit-perspective: 1000px;
+     -moz-perspective: 1000px;
+          perspective: 1000px;    /* Setting the perspective of the contents of the stage but not the stage itself*/
+}
+
+#rotate {
+  margin: 0 auto 0;
+  width: 270px;
+  height: 220px;
+  padding-top: 200px;
+ 
+}
+
+.ring {
+  margin: 0 auto;
+  height: 80px;
+  width: 90px;
+  float: left;
+  transform-style: preserve-3d;
+
+}
+.slot {
+  position: absolute;
+  width: 90px;
+  height: 80px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  color: rgba(0,0,0,0.9);
+  background: rgba(117, 132, 172, 0.9);
+  border: solid 2px #000;
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.slot img {
+  margin: 10px;
+}
+
+.go{
+  display: block;
+  margin: 0 auto 20px;
+  padding:10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+/*=====*/
+
+/*=====*/
+.spin-0     { transform: rotateX(-3710deg); }
+.spin-1     { transform: rotateX(-3746deg); }
+.spin-2     { transform: rotateX(-3782deg); }
+.spin-3     { transform: rotateX(-3818deg); }
+.spin-4     { transform: rotateX(-3854deg); }
+.spin-5     { transform: rotateX(-3890deg); }
+.spin-6     { transform: rotateX(-3926deg); }
+.spin-7     { transform: rotateX(-3962deg); }
+.spin-8     { transform: rotateX(-3998deg); }
+.spin-9     { transform: rotateX(-4034deg); }
+
+/*=====*/
+
+@keyframes spin-0 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3710deg); }
+}
+@keyframes spin-1 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3746deg); }
+}
+@keyframes spin-2 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3782deg); }
+}
+@keyframes spin-3 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3818deg); }
+}
+@keyframes spin-4 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3854deg); }
+}
+@keyframes spin-5 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3890deg); }
+}
+@keyframes spin-6 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3926deg); }
+}
+@keyframes spin-7 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3962deg); }
+}
+@keyframes spin-8 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-3998deg); }
+}
+@keyframes spin-9 {
+    0%    { transform: rotateX(36deg); }
+    100%  { transform: rotateX(-4034deg); }
+}
